@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "lloricode/laravel-repository",
+    "description": "Laravel Repository Design Pattern",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "lloricode",
+        "laravel-repository"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/lloricode/laravel-repository",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Lloric Mayuga Garcia",
+            "email": "lloricode@gmail.com",
+            "homepage": "https://github.com/lloricode",
             "role": "Developer"
         }
     ],
@@ -23,17 +23,17 @@
         "friendsofphp/php-cs-fixer": "^2.16",
         "orchestra/testbench": "^6.0",
         "phpunit/phpunit": "^9.3",
-        "vimeo/psalm": "^3.11"
+        "vimeo/psalm": "^3.15"
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Lloricode\\LaravelRepository\\": "src",
+            "Lloricode\\LaravelRepository\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Lloricode\\LaravelRepository\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Lloricode\\LaravelRepository\\LaravelRepositoryServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "LaravelRepository": "Lloricode\\LaravelRepository\\LaravelRepositoryFacade"
             }
         }
     },

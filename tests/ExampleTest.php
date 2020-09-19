@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Lloricode\LaravelRepository\Tests;
 
 class ExampleTest extends TestCase
 {

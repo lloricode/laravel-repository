@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace Lloricode\LaravelRepository\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelRepositoryCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-repository';
 
     public $description = 'My command';
 
