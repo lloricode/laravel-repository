@@ -37,7 +37,7 @@ class LaravelRepositoryServiceProvider extends ServiceProvider
             );
 
             $migrationFileName = 'create_laravel_repository_table.php';
-            if (!$this->migrationFileExists($migrationFileName)) {
+            if (! $this->migrationFileExists($migrationFileName)) {
                 $this->publishes(
                     [
                         __DIR__."/../database/migrations/{$migrationFileName}.stub" => database_path(
